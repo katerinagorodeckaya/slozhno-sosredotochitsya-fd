@@ -10,6 +10,7 @@
   --accent-color: #FF8DCB;
   --title-color: #353430;
   --article-color: #353430;
+  --outline-color: rgb(53, 52, 48, 0.4);
   --page-background-color: #FFC2E6;
   --page-background-image: url("../images/cover-image-light.png");
 }
