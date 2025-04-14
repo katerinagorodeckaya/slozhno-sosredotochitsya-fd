@@ -98,16 +98,17 @@
 
 .header__theme-menu-button_active {
   pointer-events: none;
-  outline: 1px var(--title-color, #ff0070) solid;
+  outline: 1px var(--active-color, #ff0070) solid;
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid var(--outline-color, #ff0070);
+  outline: 1px solid var(--hover-color, #ff0070);
 }
 
 .header__theme-menu-button:focus-visible {
   outline: none;
   text-decoration: underline;
+  box-shadow: 0 1px 0 var(--focus-color, #ff0070);
 }
 
 .header__theme-menu-item {
@@ -365,7 +366,7 @@
     align-self: flex-end;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); 
   }
-
+  
   .section {
     column-gap: var(--gap-medium, 20px);
   }

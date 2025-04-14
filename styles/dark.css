@@ -11,7 +11,9 @@
   --text-color: #000028;
   --article-color: #F1B2CE;
   --header-color: #db00ff;
-  --outline-color: rgba(255, 0, 112, 0.4);
+  --hover-color:  #ff007080;
+  --active-color: #ff0070;
+  --focus-color: #ff0070;
 
   --page-font-size: 18px;
   --page-font-family: "IBM Plex mono", monospace;
